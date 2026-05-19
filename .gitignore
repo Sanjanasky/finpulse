@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# FinPulse index (regenerated from docs — don't commit)
+finpulse_index/
+
+# Environment variables (NEVER commit API keys)
+.env
+.env.local
+.env.*.local
+
+# HuggingFace model cache (large, auto-downloaded)
+.cache/
+~/.cache/huggingface/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Large data files (add your actual docs to data/sample_docs)
+data/sample_docs/*.pdf
+data/sample_docs/*.xlsx
+
+# Keep the sample txt
+!data/sample_docs/apple_earnings_q3_2024.txt

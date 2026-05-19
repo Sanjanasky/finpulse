@@ -1,0 +1,19 @@
+# FinPulse RAG — Local-only requirements (100% free, no API keys)
+
+# Vector search
+faiss-cpu>=1.8.0
+
+# Local embeddings (runs on CPU, no API key needed)
+sentence-transformers>=3.0.0
+
+# Core utilities
+numpy>=1.26.0
+python-dotenv>=1.0.0
+rich>=13.7.0
+requests>=2.31.0
+
+# PDF support
+pypdf>=4.2.0
+
+# Dev / testing
+pytest>=8.0.0
